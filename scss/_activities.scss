@@ -1,0 +1,34 @@
+
+$bgcolor1: rgb(78, 78, 253);
+$bgcolor2: rgb(128, 128, 249);
+$bgcolor3: rgb(200, 200, 255);
+$text1: gray;
+$text2: rgb(179, 179, 179);
+$text3: rgb(60, 60, 60);
+
+
+@mixin actstyle ($color,$textt) {
+    border: 5px;
+    &:hover{
+        background-color: $color;
+    }
+    
+    a{
+        text-decoration: none;
+        color: $textt;
+    }
+    
+}
+
+.cfc1{
+    @include actstyle ($bgcolor1,$text1)
+    
+}
+
+.cfc2{
+    @include actstyle ($bgcolor2,$text2)
+}
+
+.cfc3{
+    @include actstyle ($bgcolor3,$text3)
+}

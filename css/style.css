@@ -1,0 +1,134 @@
+body {
+  background-color: #151515;
+  color: aqua;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px; }
+
+.menuContainer {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%; }
+  .menuContainer .logoIndex {
+    width: 110px;
+    height: 40px;
+    padding: 15px auto; }
+  .menuContainer ul {
+    display: flex;
+    align-items: center;
+    list-style: none; }
+    .menuContainer ul li {
+      font-size: medium;
+      align-items: center;
+      margin-left: 30px; }
+      .menuContainer ul li .bar {
+        color: gray;
+        text-decoration: none;
+        border-radius: 100px; }
+        .menuContainer ul li .bar:hover {
+          color: aqua; }
+      .menuContainer ul li .butLog {
+        display: inline-block;
+        background-color: rgba(128, 128, 128, 0.122);
+        color: gray;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none; }
+        .menuContainer ul li .butLog:hover {
+          background-color: aqua; }
+
+.logo {
+  width: 40px;
+  height: 40px;
+  padding: 15px auto; }
+
+.img-inicio {
+  background-image: url(../img/imgproyect.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem; }
+  .img-inicio .frase {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 21rem;
+    text-align: center; }
+    .img-inicio .frase h1 {
+      font-size: 3.5rem;
+      font-weight: bolder; }
+
+.activities {
+  display: flex;
+  justify-content: center; }
+  .activities .cfc {
+    border: 5px; }
+    .activities .cfc:hover {
+      background-color: rgba(128, 128, 128, 0.308); }
+    .activities .cfc a {
+      text-decoration: none;
+      color: aqua; }
+
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 0;
+  margin: 3rem 10%;
+  border: solid 2px gray;
+  border-radius: 2rem; }
+  .aboutUsContainer .aboutUsTitle {
+    text-align: center; }
+    .aboutUsContainer .aboutUsTitle h3 {
+      font-size: 3rem;
+      font-weight: bold; }
+  .aboutUsContainer .aboutUsText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 0 25%;
+    padding-top: 5rem; }
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 3rem;
+  background: #343a40; }
+  .footerContainer .social {
+    text-align: center;
+    font-size: larger; }
+  .footerContainer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none; }
+
+.cfc1 {
+  border: 5px; }
+  .cfc1:hover {
+    background-color: #4e4efd; }
+  .cfc1 a {
+    text-decoration: none;
+    color: gray; }
+
+.cfc2 {
+  border: 5px; }
+  .cfc2:hover {
+    background-color: #8080f9; }
+  .cfc2 a {
+    text-decoration: none;
+    color: #b3b3b3; }
+
+.cfc3 {
+  border: 5px; }
+  .cfc3:hover {
+    background-color: #c8c8ff; }
+  .cfc3 a {
+    text-decoration: none;
+    color: #3c3c3c; }

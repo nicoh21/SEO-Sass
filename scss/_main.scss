@@ -1,0 +1,67 @@
+
+.img-inicio{
+    background-image: url(../img/imgproyect.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    .frase{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 21rem;
+        text-align: center;
+        h1{
+            font-size: 3.5rem;
+            font-weight: bolder;
+        }
+    }
+}
+
+
+.activities{
+    display: flex;
+    justify-content: center;
+
+    .cfc{
+        border: 5px;
+        &:hover{
+            background-color: $cfc;
+        }
+        
+        a{
+            text-decoration: none;
+            color: $text;
+        }
+        
+    }
+}
+
+
+.aboutUsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 0;
+    margin: 3rem 10%;
+    border: solid 2px $borders;
+    border-radius: 2rem;
+    .aboutUsTitle{
+        text-align: center;
+        h3{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+    .aboutUsText{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: 0 25%;
+        padding-top: 5rem;
+    
+    }
+}

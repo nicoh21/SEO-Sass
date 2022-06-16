@@ -1,0 +1,19 @@
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 3rem;
+    background: $hf;
+    .social{
+        text-align: center;
+        font-size: larger;
+    }    
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        list-style: none;
+    }
+}
